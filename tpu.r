@@ -8,6 +8,9 @@
 
 #Script em construção
 
+
+#antes de inciar consulta, deve-se sconverter arquivos em .csv
+
 #Inicio
 #Limpando área de trabalho
 rm(list = ls())
@@ -22,7 +25,7 @@ if(!require(sqldf))install.packages("sqldf");require(sqldf)
 
 #declarando local dos arquivos
 setwd("D:/MEGA/TPU - 2019/DADOS/ALTERADOS/")
-
+#declaração para consulta de arquivos e nomeação de produto final
 parte=c("Classe","Assuntos","Movimentos")
 
 
