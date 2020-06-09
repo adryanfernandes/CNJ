@@ -114,14 +114,19 @@ for(p in 1:3){
     fim[[j]]=cbind(tabela[,1:6],COMPETENCIA,descrição,tabela[,7:8])
     #write.table(fim[[j]],output[j],sep=";",row.names = F)
   }
-  
+  #definido arquivo final
   final=NULL
   for (i in 1:6) {
+    #união de listas e um data frame
     final=rbind(final,fim[[i]])
   }
+  #mudando coluna para caractere
   final$descrição=as.character(final$descrição)
+  #mudando coluna para caractere
   final$COMPETENCIA=as.character(final$COMPETENCIA)
+  #renomeando colunas do arquivo
   names(final)=c("x1","x2","x3","x4","x5","x6","Compêtencia","Descrição","Código","Código Pai")
+  #salvando arquivo em .csv
   write.table(final,paste0(parte[p],".csv"),sep=";",row.names = F)
 }
 
