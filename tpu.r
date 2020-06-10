@@ -40,14 +40,16 @@ for(p in 1:3){
   
   
   for(j in 1:m){
-    
+    #leitura dos arquivos da tpu, depois de tranformados em xlsx, eles são baixados em csv ou xlx,(não me recordo agora)
     dados <- read_excel(input[j],col_names = FALSE, skip = 5)
+    #transformando em data frame e retirando as linhas em brando ( celulas mescladas que ficaram em branco com a leitura dos dados no R
     dados<-data.frame(dados);tabela=dados[,1:7];tabela[is.na(tabela)]=0;n=dim(tabela)
     
     #retirando linhas vazias
     indice=0;for(i in 1:n[1]){if(tabela[i,6]=="0" && tabela[i,7]==0){indice=c(indice,i)}};indice=indice[-1];tabela=tabela[-indice,]
     n=dim(tabela)
     names(tabela)
+    #adicionando coluna
     tabela=cbind("X__0"=rep("0",n[1]),tabela)
     tabela$X__0=as.character(tabela$X__0)
     tabela[tabela$X__7=="0",1]=tabela[tabela$X__7=="0",2]
