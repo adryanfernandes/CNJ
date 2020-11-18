@@ -2,5 +2,7 @@ Este repositorio é destinado a divulgar metodologia de analise de dados disponi
 
 todos os dados foram coletados diretamente do site do CNJ, tem tem diversas ferramentas para visualização.
 
+Dentre os paineis temos o de produtividade
+
 caso exista algum tipo de sugestão basta enviar:)
 meu email é : adryanferanndes@outlook.com
