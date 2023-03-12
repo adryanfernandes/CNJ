@@ -1,10 +1,13 @@
-#scritp TPU
+#scritp para dados de TPU do CNJ
 
 #Autor: Adryan Fernandes Rocha de Brito
 #data : 29/05/2020
 
 #Script utilizado para analisar arquivos das Tabelas Processuais Unificadas
-#em outras palavras, tabular de forma simples.
+#em outras palavras, tabular de forma simples. Esse procedimento pode ser 
+#utilizado para comparar mudanças nessas tabelas que tem formato único e 
+#complexo. Agilizando assim os tramistes processuais em todos os tribunais 
+#estaduais do pais.
 
 #Script em construção
 
