@@ -2,9 +2,9 @@ Este repositorio é destinado a divulgar metodologia de analise de dados disponi
 
 
 TPU
-O primeiro projeto é referente a TPU tabela processual unificada, esta tabele traz diversas informações sobre classe, movimento e assunto dos possiveis processos em diversos ambitos no judiciario nacional, entre uma versão e outra existe uma dificuldade de identificação devido ao tamanho da tabela, assim criei um código que compara essas versão e indica as mudanças ocorridas.
+O primeiro projeto é referente a TPU tabela processual unificada, esta tabela traz diversas informações sobre classe, movimento e assunto dos possiveis processos em diversos ambitos no judiciario nacional, entre uma versão e outra existe uma dificuldade de identificação devido ao tamanho da tabela, assim criei um código que compara essas versão e indica as mudanças ocorridas.
 
-A ultima versão avaliada foi a de 26/05/2023
+A ultima versão avaliada foi a de 05/02/2024
 
 
 
@@ -14,3 +14,8 @@ Dentre os paineis temos o de produtividade
 
 caso exista algum tipo de sugestão basta enviar:)
 meu email é : adryanferanndes@outlook.com
+
+
+
+
+Projeto 
