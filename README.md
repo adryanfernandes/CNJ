@@ -1,3 +1,8 @@
+Desde metade de minha faculdade em estatistica eu tenho uma proximidade com a area da justiça, sonho em um dia ter cabeça e paciencia para cursar direito na UFRN, essa proximidade foi mais forte quando iniciei meu estagio de graduação na secretaria de gestão estrategica do TJRN lá no ano de 2017, ali tive contato com a realizade de tribunal e os principais desafio que estão relacionados com essa area.
+
+O link base do Conselho Nacional de Justiça é https://www.cnj.jus.br/
+
+
 Este repositorio é destinado a divulgar metodologia de analise de dados disponibilizados pelo CNJ (Conselho Nacional de Justiça) utilizando principalmente a linguagem R além das técnicas estastiticas como Regressão Linear, Agrupamento, analise longitudinal, dados categorizados entre outras.
 
 
